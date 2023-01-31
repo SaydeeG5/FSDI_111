@@ -5,7 +5,7 @@ app= Flask(__name__)    # Create an instance of the Flask class
                         # into the app variable (now an object).
 
 
-@app.route("/")           # Flask decorator that creates routes. 
+@app.route("/aboutme")           # Flask decorator that creates routes. 
 def index():            # Flask calls these "view functions".
     me = {              # Python dictionary with key/value pairs. 
         "first_name": "Saydee",
